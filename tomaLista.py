@@ -5,7 +5,15 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
+
+#C:\\ruta\\a\\tu\\driver\\msedgedriver.exe
+#URL_de_tu_página
+#id_del_elemento
+#id_de_la_celda_A1
+
+
 # Inicializa el controlador de Selenium para Microsoft Edge
+
 driver = webdriver.Edge(executable_path="C:\\ruta\\a\\tu\\driver\\msedgedriver.exe")
 
 # Abre Microsoft Edge y navega a la página web deseada
